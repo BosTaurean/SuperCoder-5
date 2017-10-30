@@ -1,6 +1,7 @@
 import Tkinter
 import random
 from collections import namedtuple
+from time import sleep
 
 Button = namedtuple("Button", "color alt_color x y")
 BUTTONS_DATA = [Button("yellow", "yellow3", 30, 50),
